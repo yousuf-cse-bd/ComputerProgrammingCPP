@@ -32,6 +32,6 @@ int main(int argc, char const *argv[])
         cout<<"Index: ["<<i<<"] = Element = ";
         cin>>A[i];
     }
-    cout<<"The Min Element: "<<caculateAvgElements(A, size)<<endl;
+    cout<<"The Average Element: "<<caculateAvgElements(A, size)<<endl;
     return 0;
 }
